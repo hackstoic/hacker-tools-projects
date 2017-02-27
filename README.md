@@ -24,6 +24,10 @@ title:  黑客工具大搜罗
 | ----- | ----- | -----  | -----  |
 |     1|   mitmproxy |     https://github.com/mitmproxy/mitmproxy   |    中间人攻击工具    |
 
+# 安全工具（ruby语言）
+|序号|名称|项目地址|简介|
+| ----- | ----- | -----  | -----  |
+|     1|   PhishLulz |     https://github.com/antisnatchor/phishlulz   |    高级自动化钓鱼框架, 只需要10分钟就能搭建起钓鱼环境，进行精确的钓鱼攻击。    |
 
 
 #  杂
@@ -679,4 +683,185 @@ GitHub - ele7enxxh/android-afl: Fuzzing Android program with american fuzzy lop 
 
 AFL的Android移植版本
 
+Github 安全军火库（四）
+希望今年能够更加努力一点，早日在菜的抠脚的队伍中稳健成长。
 
+==========================华丽丽的分割线==========================
+
+先安利一个网站，我平时经常看，觉得内容都挺不错的。
+
+安全行业从业人员自研开源扫描器合集（2017/01/11更新）-MottoIN
+
+这篇文章主要是针对扫描器这一块的开源项目做了收集和规整，理的很清楚，里面的项目我就不拿出来罗列了。
+
+==========================华丽丽的分割线==========================
+
+漏洞及渗透练习平台：
+
+
+rapid7/metasploitable3
+metasploitable3
+
+stamparm/DSVW
+轻量web漏洞演示平台
+
+MyKings/docker-vulnerability-environment
+docker搭建的漏洞练习环境
+
+joe-shenouda/awesome-cyber-skills
+黑客技术训练环境
+
+OWASP/SecurityShepherd
+web及app渗透训练平台
+
+花式扫描器：
+
+
+ysrc/GourdScanV2
+被动式漏洞扫描系统
+
+ring04h/wydomain
+子域名扫描器
+
+ysrc/F-Scrack
+服务弱口令检测脚本
+
+thesp0nge/dawnscanner
+ruby源码扫描工具
+
+zer0h/httpscan
+web主机发现小工具
+
+maxlabelle/WebMalwareScanner
+A simple malware scanner
+
+youngyangyang04/NoSQLAttack
+MongoDB漏洞扫描器
+
+az0ne/AZScanner
+自动漏扫
+
+Screetsec/Dracnmap
+集成Nmap的一款端口扫描器
+
+maK-/parameth
+Get Post参数扫描器
+
+delvelabs/vane
+A GPL fork of the popular wordpress vulnerability scanner WPScan
+
+stanislav-web/OpenDoor
+路径扫描器
+
+golismero/golismero
+web扫描器
+
+We5ter/Scanners-Box
+安全行业从业人员自研开源扫描器合集
+
+Graph-X/davscan
+Fingerprints servers, finds exploits, scans WebDAV.
+
+lietdai/doom
+分布式任务分发端口扫描器
+
+angryziber/ipscan
+fast and friendly network scanner
+
+甲方安全工程师生存指南：
+
+
+hslatman/awesome-threat-intelligence
+威胁情报资源
+
+arthepsy/ssh-audit
+tool for ssh server auditing
+
+keithjjones/visualize_logs
+A Python library and command line tools to provide interactive log visualization
+
+m4rco-/dorothy2
+一个僵尸网络分析框架
+
+lightbulb-framework/lightbulb-framework
+WAFS审计工具
+
+Xyntax/1000php
+1000个php代码审计案例
+
+aker-gateway/Aker
+基于 python 的 Linux ssh 跳板机/堡垒机设置工具
+
+andrewjkerr/security-cheatsheets
+Linux常见命令及部分安全软件使用命令列表
+
+JacobReynolds/ssrfDetector
+ssrfDetector
+
+yassineaddi/BackdoorMan
+PHP后门检测工具
+
+CISOfy/lynis
+Security auditing and hardening tool, for UNIX-based systems
+
+SpamScope/spamscope
+垃圾邮件分析工具
+
+yassineaddi/BackdoorMan
+恶意代码，php shell检测工具
+
+OWASP/django-DefectDojo
+安全程序和漏洞管理工具
+
+Neohapsis/NeoPI
+混淆代码检测工具
+
+emposha/Shell-Detector
+webshell检测工具
+
+Web:
+
+
+1N3/IntruderPayloads
+burp instruder payloads collection
+
+Neohapsis/bbqsql
+A Blind SQL Injection Exploitation Tool
+
+antoor/antSword
+antSword
+
+xl7dev/BurpSuite
+burp插件收集项目
+
+rastating/wordpress-exploit-framework
+一个用来攻击wp的框架
+
+lijiejie/ds_store_exp
+.DS_store文件泄露利用脚本
+
+漏洞POC&EXP：
+
+
+joaomatosf/jexboss
+JBOSS verify & exp tool
+
+jiayy/android_vuln_poc-exp
+安卓十月漏洞POC
+
+ganliuzhuo/Sebug
+在sebug提交的漏洞详情及poc
+
+Fuzz:
+
+
+google/fuzzer-test-suite
+Set of tests for fuzzing engines
+
+renatahodovan/fuzzinator
+Fuzzinator Random Testing Framework
+
+henshin/filebuster
+web fuzz 
+
+如果当中有描述不正确的地方，请老司机们多多指教，鞠躬！
